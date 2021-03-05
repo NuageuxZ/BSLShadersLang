@@ -1,72 +1,72 @@
 #shaders/lang/zh_CN.lang
 
 #Profiles
-profile.LOW=Low
-profile.MEDIUM=Medium
-profile.HIGH=High
-profile.ULTRA=Ultra
-profile.comment=Low : low shadows, no extra effects. Medium : medium shadows, no extra effects. High : medium shadows, AO and light shafts. Ultra : high shadows, AO, and light shafts.
+profile.LOW=低
+profile.MEDIUM=中
+profile.HIGH=高
+profile.ULTRA=极高
+profile.comment=低：低阴影效果，无额外特效. 中：中等阴影效果，无额外特效. 高：中等阴影效果，启用环境光遮及光束渲染. 极高：高阴影效果，启用环境光遮及光束渲染.
 
 #Screens
-screen.LIGHTING=Lighting
-screen.SHADOW=Extra Shadow Config
+screen.LIGHTING=光影
+screen.SHADOW=更多阴影设置
 
-screen.MATERIAL=Material
-screen.REFLECTION=Reflections
-screen.PARALLAX=Parallax
+screen.MATERIAL=材质
+screen.REFLECTION=反射
+screen.PARALLAX=视差效果
 
-screen.ATMOSPHERICS=Atmospherics
-screen.SKY=Sky Config
-screen.CLOUDS=Cloud Config
+screen.ATMOSPHERICS=环境
+screen.SKY=天空设置
+screen.CLOUDS=云渲染设置
 
-screen.WATER=Water
+screen.WATER=水渲染
 
-screen.POST_EFFECTS=Post Effects
+screen.POST_EFFECTS=后期效果
 
-screen.CGT=Color Grading & Tonemap
-screen.COLOR_GRADING=Color Grading Config
-screen.CG_R=Red Channel
-screen.CG_G=Green Channel
-screen.CG_B=Blue Channel
-screen.CG_T=Tint
+screen.CGT=校色与色调图
+screen.COLOR_GRADING=校色设置
+screen.CG_R=红
+screen.CG_G=绿
+screen.CG_B=蓝
+screen.CG_T=着色
 
-screen.COLOR=Color
-screen.LIGHT_COLOR=Lighting Color
-screen.LIGHT_M=Light (Morning)
-screen.AMBIENT_M=Ambient (Morning)
-screen.LIGHT_D=Light (Day)
-screen.AMBIENT_D=Ambient (Day)
-screen.LIGHT_E=Light (Evening)
-screen.AMBIENT_E=Ambient (Evening)
-screen.LIGHT_N=Light (Night)
-screen.AMBIENT_N=Ambient (Night)
-screen.MINLIGHT=Minimum Light
-screen.BLOCKLIGHT_COLOR=Blocklight Color
-screen.SKY_COLOR=Sky Color
-screen.WATER_COLOR=Water Color
-screen.WEATHER_COLOR=Weather Color
-screen.WEATHER_R=Rain (Normal)
-screen.WEATHER_C=Snowfall
-screen.WEATHER_D=Desert Sandstorm
-screen.WEATHER_B=Mesa Sandstorm
-screen.WEATHER_S=Swamp Rain
-screen.WEATHER_M=Mushroom Island Rain
-screen.WEATHER_V=Savanna Cloudy
-screen.AURORA_COLOR=Aurora Color
-screen.AURORA_L=Low Section Color
-screen.AURORA_H=High Section Color
-screen.DIMENSION_COLOR=Dimension Color
-screen.NETHER_COLOR=Nether Color
-screen.NETHER_N=Nether Wastes
-screen.NETHER_V=Soul Sand Valley
-screen.NETHER_C=Crimson Forest
-screen.NETHER_W=Warped Forest
-screen.NETHER_B=Basalt Deltas
-screen.END_COLOR=End Color
+screen.COLOR=色彩
+screen.LIGHT_COLOR=光照
+screen.LIGHT_M=光线（早晨）
+screen.AMBIENT_M=环境（早晨）
+screen.LIGHT_D=光线（正午）
+screen.AMBIENT_D=环境（正午）
+screen.LIGHT_E=光线（傍晚）
+screen.AMBIENT_E=环境（傍晚）
+screen.LIGHT_N=光线（夜晚）
+screen.AMBIENT_N=环境（夜晚）
+screen.MINLIGHT=最低光照
+screen.BLOCKLIGHT_COLOR=方块光照
+screen.SKY_COLOR=天空
+screen.WATER_COLOR=水
+screen.WEATHER_COLOR=天气
+screen.WEATHER_R=雨（普通）
+screen.WEATHER_C=雪
+screen.WEATHER_D=沙漠沙尘暴
+screen.WEATHER_B=平顶山沙尘暴
+screen.WEATHER_S=雨（沼泽）
+screen.WEATHER_M=雨（蘑菇岛）
+screen.WEATHER_V=多云（热带草原）
+screen.AURORA_COLOR=极光
+screen.AURORA_L=低部分色彩
+screen.AURORA_H=高部分色彩
+screen.DIMENSION_COLOR=维度
+screen.NETHER_COLOR=下界
+screen.NETHER_N=下界荒地
+screen.NETHER_V=灵魂沙峡谷
+screen.NETHER_C=绯红森林
+screen.NETHER_W=诡异森林
+screen.NETHER_B=玄武岩三角洲
+screen.END_COLOR=末地
 
-screen.WORLD=World
-screen.WAVING=Waving Blocks
-screen.CURVATURE=Curvature
+screen.WORLD=世界
+screen.WAVING=动态方块
+screen.CURVATURE=世界渲染曲率
 
 #Settings
 option.ABOUT=BSL v8.0
@@ -74,97 +74,97 @@ option.ABOUT.comment=by Capt Tatsu. bitslablab.com
 value.ABOUT.0=by Capt Tatsu
 
 #Lighting
-option.shadowMapResolution=Shadowmap Quality
-option.shadowMapResolution.comment=Adjusts shadowmap size. §e[*]§rHigher resolution gives sharper shadows, but reduces performance.
-value.shadowMapResolution.512=Very Low (512)
-value.shadowMapResolution.1024=Low (1024)
-value.shadowMapResolution.2048=Medium (2048)
-value.shadowMapResolution.3072=High (3072)
-value.shadowMapResolution.4096=Very High (4096)
-value.shadowMapResolution.8192=Ultra High (8192)
+option.shadowMapResolution=阴影分辨率
+option.shadowMapResolution.comment=调整阴影分辨率. §e[*]§r高分辨率会使阴影渲染更锐利，但会降低性能.
+value.shadowMapResolution.512=极低（512）
+value.shadowMapResolution.1024=低（1024）
+value.shadowMapResolution.2048=中等（2048）
+value.shadowMapResolution.3072=高（3072）
+value.shadowMapResolution.4096=极高（4096）
+value.shadowMapResolution.8192=最高（8192）
 
-option.shadowDistance=Shadow Distance
-option.shadowDIstance.comment=Adsusts shadow distance.
+option.shadowDistance=阴影距离
+option.shadowDIstance.comment=调整阴影距离.
 
-option.SHADOW_COLOR=Colored Shadow
-option.SHADOW_COLOR.comment=Enables tinted shadow from translucents. §a[+]§rUsed for colored volumetric light shafts. §c[-]§rSlightly higher performance cost when using shadow filtering.
+option.SHADOW_COLOR=彩色阴影
+option.SHADOW_COLOR.comment=若启用，彩色半透明方块将产生彩色阴影. §a[+]§r常用于渲染彩色体积光. §c[-]§r若与阴影过滤同时启用，性能可能略微降低
 
-option.SHADOW_FILTER=Shadow Filtering
-option.SHADOW_FILTER.comment=Enables shadow filtering. §a[+]§rThis effect benefits from TAA.
+option.SHADOW_FILTER=阴影过滤
+option.SHADOW_FILTER.comment=启用阴影过滤. §a[+]§r时间性抗锯齿（TAA）对此效果有加成作用.
 
-option.sunPathRotation=Sun Path Rotation
-option.sunPathRotation.comment=Adjusts sun angle.
+option.sunPathRotation=日光方向
+option.sunPathRotation.comment=调成日光方向
 
-option.SHADOW_SUBSURFACE=Subsurface Scattering
-option.SHADOW_SUBSURFACE.comment=Allows light to penetrate and scatter through foliages.
+option.SHADOW_SUBSURFACE=光照散射
+option.SHADOW_SUBSURFACE.comment=允许光线从树叶中穿过并散射.
 
-option.SHADOW_PIXEL=Pixel Locked Shadows
-option.SHADOW_PIXEL.comment=Applies pixelation effect on shadows.
-value.SHADOW_PIXEL.0=OFF
+option.SHADOW_PIXEL=阴影像素锁定
+option.SHADOW_PIXEL.comment=为阴影启用像素化效果.
+value.SHADOW_PIXEL.0=关
 
-option.AO=Ambient Occlusion
-option.AO.comment=Adds soft shadows around surface contact or intersection.
+option.AO=环境光遮蔽（AO）
+option.AO.comment=在物体接触处添加柔和的阴影效果.
 
-option.AO_STRENGTH=AO Strength
-option.AO_STRENGTH.comment=Adjusts ambient occlusion strength.
+option.AO_STRENGTH=环境光遮蔽强度
+option.AO_STRENGTH.comment=调整环境光遮蔽强度.
 
-option.DESATURATION=Desaturation
-option.DESATURATION.comment=Reduces saturation while adding some tint in darker areas.
+option.DESATURATION=去饱和度
+option.DESATURATION.comment=在较暗的区域添加一些染色并降低饱和度
 
-option.DESATURATION_FACTOR=Max Desaturation Factor
-option.DESATURATION_FACTOR.comment=Adjusts the maximum amount of desaturation applied.
-value.DESATURATION_FACTOR.2.0=Very Low
-value.DESATURATION_FACTOR.1.5=Low
-value.DESATURATION_FACTOR.1.0=Medium
-value.DESATURATION_FACTOR.0.5=High
-value.DESATURATION_FACTOR.0.0=Very High
+option.DESATURATION_FACTOR=最大去饱和度系数
+option.DESATURATION_FACTOR.comment=调整施加去饱和度效果的最大量.
+value.DESATURATION_FACTOR.2.0=极低
+value.DESATURATION_FACTOR.1.5=低
+value.DESATURATION_FACTOR.1.0=中等
+value.DESATURATION_FACTOR.0.5=高
+value.DESATURATION_FACTOR.0.0=极高
 
-option.TOON_LIGHTMAP=Toon Lightmap
-option.TOON_LIGHTMAP.comment=Reduces the quality of vanilla lighting for cel shading. §e[*]§rThis option is known for making your game "look bad", only enable this when you need it.
+option.TOON_LIGHTMAP=卡通光照贴图
+option.TOON_LIGHTMAP.comment=降低原版渲染效果至卡通渲染（Cel-Shading）等级. §e[*]§r此效果通常会使渲染质量看上去变差。若非必要，请勿启用此选项.
 
-option.WHITE_WORLD=White World
-option.WHITE_WORLD.comment=Replaces textures with flat white color.
+option.WHITE_WORLD=白色世界
+option.WHITE_WORLD.comment=用纯白色替代方块材质.
 
 #Material
-option.ADVANCED_MATERIALS=Advanced Materials
-option.ADVANCED_MATERIALS.comment=Enables the use of specular and normal mapping which allows for more detail on various things.  §e[*]§rThis option requires a resource pack which contains specular and/or normal maps, disable this if you don't use one.
+option.ADVANCED_MATERIALS=高级材质设置
+option.ADVANCED_MATERIALS.comment=启用法线贴图与高光反射效果。此设置可以为很多东西增强细节.  §e[*]§r此设置需要一个支持高光反射或法线贴图的资源包。若无资源包请禁用此选项.
 
-option.MATERIAL_FORMAT=Material Format
-option.MATERIAL_FORMAT.comment=Determines the specular and normal map format used by the resourcepack. §e[*]§rTexture artists usually tell which format is used in their resourcepack, using the wrong format may give weird results.
+option.MATERIAL_FORMAT=高级材质格式
+option.MATERIAL_FORMAT.comment=调整资源包使用的镜面和法线贴图格式. §e[*]§r资源包作者通常会注明资源包使用的是哪种格式，使用错误的格式可能会产生奇怪的效果.
 value.MATERIAL_FORMAT.0=SEUS PBR
 value.MATERIAL_FORMAT.1=labPBR 1.3
 
 #Reflections
-option.REFLECTION=Reflections
-option.REFLECTION.comment=Enables screen space reflection. §e[*]§rThis toggle only affects water and translucent reflection, rain and specular reflection won't be affected.
+option.REFLECTION=反射
+option.REFLECTION.comment=启用屏幕空间反射. §e[*]§r此选项仅影响水和半透明反射，不会影响雨和高光反射.
 
-option.REFLECTION_TRANSLUCENT=Translucent Reflections
-option.REFLECTION_TRANSLUCENT.comment=Allows reflection to be rendered on translucent surfaces, such as stained glass, ice, slime blocks, and more.
+option.REFLECTION_TRANSLUCENT=半透明反射
+option.REFLECTION_TRANSLUCENT.comment=允许在半透明表面（例如彩色玻璃，冰，黏液块等）上渲染反射.
 
-option.REFLECTION_SPECULAR=Specular Reflection
-option.REFLECTION_SPECULAR.comment=Enables reflection on smooth or metallic surfaces.
+option.REFLECTION_SPECULAR=高光反射
+option.REFLECTION_SPECULAR.comment=在光滑或金属表面上启用反射效果.
 
-option.REFLECTION_RAIN=Rain Reflection
-option.REFLECTION_RAIN.comment=Allows surfaces to be wet while raining.  §e[*]§rRequires specular reflection.
-value.REFLECTION_RAIN.0=OFF
-value.REFLECTION_RAIN.1=Puddles
-value.REFLECTION_RAIN.2=Full
+option.REFLECTION_RAIN=雨反射
+option.REFLECTION_RAIN.comment=若启用，下雨时地面会看上去湿润.  §e[*]§r必须启用高光反射来使用此效果.
+value.REFLECTION_RAIN.0=关
+value.REFLECTION_RAIN.1=仅水坑
+value.REFLECTION_RAIN.2=全部
 
-option.REFLECTION_ROUGH=Rough Reflection
-option.REFLECTION_ROUGH.comment=Allows surfaces with lower smoothness to render blurry reflections. §c[-]§rMay contain minor artifacts.
+option.REFLECTION_ROUGH=粗糙反射
+option.REFLECTION_ROUGH.comment=允许粗糙表面渲染校模糊的反射. §c[-]§r可能出现少量渲染错误.
 
-option.REFLECTION_PREVIOUS=Previous Frame Reflection
-option.REFLECTION_PREVIOUS.comment=Allows translucents to be reflected by using previous frame information. §c[-]§rMay cause missing reflection on screenshot (caused by screenshot size setting). §c[-]§rIncompatible with some GPUs.
+option.REFLECTION_PREVIOUS=上一帧反射
+option.REFLECTION_PREVIOUS.comment=允许半透明方块使用先前的帧信息来渲染反射. §c[-]§r此设置可能导致游戏截图丢失部分反射效果（由截图大小设置引起）. §c[-]§r此设置可能与部分显卡不兼容.
 
-option.ALBEDO_METAL=Albedo Tinted Hardcoded Metal
-option.ALBEDO_METAL.comment=Applies base texture as tint on hardcoded metallic surfaces. §e[*]§rWorks on labPBR material format only.
+option.ALBEDO_METAL=内置金属反射染色
+option.ALBEDO_METAL.comment=在光影硬编码的金属表面上将方块材质颜色应用到反射染色. §e[*]§r仅适用于labPBR高级材质格式.
 
 #Parallax
-option.PARALLAX=Parallax Occlusion Mapping
-option.PARALLAX.comment=Adds displacement on a surface using height map.
+option.PARALLAX=视差遮蔽贴图
+option.PARALLAX.comment=使用高度图在方块表面添加凹凸效果.
 
-option.PARALLAX_DEPTH=Parallax Depth
-option.PARALLAX_DEPTH.comment=Adjusts parallax deepness.
+option.PARALLAX_DEPTH=视差遮蔽效果深度
+option.PARALLAX_DEPTH.comment=调整视差贴图效果深度.
 value.PARALLAX_DEPTH.0.05=5 cm
 value.PARALLAX_DEPTH.0.10=10 cm
 value.PARALLAX_DEPTH.0.15=15 cm
@@ -176,17 +176,17 @@ value.PARALLAX_DEPTH.0.40=40 cm
 value.PARALLAX_DEPTH.0.45=45 cm
 value.PARALLAX_DEPTH.0.50=50 cm
 
-option.SELF_SHADOW=Self Shadows
-option.SELF_SHADOW.comment=Allows a surface to cast shadow to itself using heightmap.
+option.SELF_SHADOW=自阴影
+option.SELF_SHADOW.comment=使用高度图将阴影投射到方块自身上（例如楼梯，栅栏）.
 
-option.SELF_SHADOW_ANGLE=Self Shadowing Angle
-option.SELF_SHADOW_ANGLE.comment=Adjusts the self shadowing angle, higher value allows the shadow to travel further.
+option.SELF_SHADOW_ANGLE=自阴影角度
+option.SELF_SHADOW_ANGLE.comment=调整自阴影角度，较高的值可使自阴影渲染更长.
 
-option.PARALLAX_QUALITY=Parallax Quality
-option.PARALLAX_QUALITY.comment=Adjusts the quality of parallax occlusion mapping and self shadows.
+option.PARALLAX_QUALITY=视差效果质量
+option.PARALLAX_QUALITY.comment=调整视差遮蔽贴图与自阴影质量.
 
-option.PARALLAX_DISTANCE=Parallax Distance
-option.PARALLAX_DISTANCE.comment=Adjusts how far parallax occlusion mapping and self shadows can be rendered.
+option.PARALLAX_DISTANCE=视差效果距离
+option.PARALLAX_DISTANCE.comment=调整视差遮蔽贴图与自阴影的渲染距离.
 
 option.DIRECTIONAL_LIGHTMAP=Directional Lightmap
 option.DIRECTIONAL_LIGHTMAP.comment=Adds normal mapping to vanilla lighting. §c[-]§rLightmap may glitch with this effect enabled.
