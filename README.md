@@ -1,7 +1,11 @@
-# BSLShadersLang
+# BSLShadersLang-zh_CN
 A collection of translation files for BSL Shaders v8.0 and above.
+
+##This is the Simplidies Chinese fork maintained by NuageuxZ
+
 ## Available languages
 - English (by Capt Tatsu, pre-installed)
+- Simplified Chinese (NuageuxZ, this fork)
 ## Installation
 - Click the green button named `Code`, then press Download ZIP.
 - Open the downloaded zip, then open the `BSLShadersLang-main` directory.
