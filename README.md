@@ -1,6 +1,6 @@
 # BSLShadersLang-zh_CN
 
-###Please note that this project has been abandoned. User kaniol-lck has uploaded his translation here: https://github.com/CaptTatsu/BSLShadersLang/blob/main/lang/zh_CN.lang
+### Please note that this project has been abandoned. User kaniol-lck has uploaded his translation here: https://github.com/CaptTatsu/BSLShadersLang/blob/main/lang/zh_CN.lang
 
 A collection of translation files for BSL Shaders v8.0 and above.
 This is the Simplidies Chinese fork maintained by NuageuxZ.
